@@ -1,0 +1,80 @@
+.form-wallet {
+  background-color: rgb(238, 227, 227);
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.value_and_description {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.value_and_description label {
+  display: flex;
+  align-items: center;
+  color: #003BE5;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.value_and_description input, .value_and_description textarea {
+  font-size: 1.6rem;
+  font-family: 'Times New Roman', Times, serif;
+  width: 250px;
+  height: 35px;
+  outline: none;
+  border: 2px solid #003BE5;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1.5rem;
+  background: none;
+}
+
+.value_and_description span {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.container-currency {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-currency span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #003BE5;
+  margin-right: 0.5rem;
+}
+
+.container-currency select {
+  padding: 0.7rem 1.5rem;
+  background: none;
+  color: #003BE5;
+  border-radius: 0.25rem;
+  border: 2px solid #003BE5;
+}
+
+.button-saved-expense {
+  width: 15%;
+  background-color: #003BE5;
+  border: none;
+  padding: 1.7rem;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 2rem;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* .button-saved-expense {
+ */

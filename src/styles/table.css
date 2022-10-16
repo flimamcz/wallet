@@ -1,0 +1,76 @@
+.table-expense {
+  width: 100%;
+  margin: 0rem auto;
+  background-color: #003BE5;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-collapse: collapse; */
+}
+
+.table-expense thead{
+  width: 1300px;
+}
+
+.table-expense thead tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  border-bottom: 1px solid white;
+}
+
+.table-expense tr th {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.table-expense tbody {
+  max-width: 1300px;
+}
+
+.table-expense tbody tr {
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.table-expense tr td {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(223, 189, 189);
+  padding: 2rem 0;
+}
+
+.table-expense tbody td button { 
+  border: none;
+  background: none;
+  width: 32px;
+}
+
+.table-expense tbody td button img {
+  cursor: pointer;
+} 
+
+.title-not-expense {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 2rem;
+  color: #FFD371;
+  display: block;
+  width: 350px;
+  height: 70px;
+  margin: 2rem auto;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+}
+
